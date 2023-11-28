@@ -1,4 +1,5 @@
 use hippo_kyle;
+TRUNCATE albums;
 
     insert into albums (artist, name, release_date, sales, genre)
 values('Michael Jackson', 'Thriller', 1982, 50.2, 'Pop, post-disco, funk, rock'),
